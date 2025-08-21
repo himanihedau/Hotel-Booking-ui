@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Responsive Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">WanderNest</div>
+        <ul class="nav_links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Services</a></li>
+            <li class="link"><a href="#">About Us</a></li>
+            <li class="link"><a href="#">Contact Details</a></li>
+        </ul>
+        <!-- Add this in your <nav> tag or somewhere visible -->
+<div class="dark-mode-toggle">
+  <i class="fas fa-moon"></i>
+  <label class="switch">
+    <input type="checkbox" id="darkModeToggle">
+    <span class="slider round"></span>
+  </label>
+</div>
+
+    </nav>
+    <header class="section__container" header_container>
+       <div class="header_img_container">
+        <div class="header_content">
+            <h1>EN<span>joy</span> Your Dream Holidays</h1>
+            <p>Book Hotels flights and explore the awesome adventure of your life 
+                ,Enjoy the most hygienic food which suits your apetite.
+            </p></div>
+            <div class="booking_container">
+                <form action="">
+                    <div class="form_group">
+                        <div class="input_group">
+                            <input type="text" id="location"name="location"/>
+                            <label for="location">Location</label>
+                        </div>
+                        <p>Where are you going??</p>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="input_group">
+                            <input type="date" id="checkin" name="checkin"/>
+                            <label for="">Check In</label>
+                        </div>
+                        <p>Add Date</p>
+                    </div>
+
+                     <div class="form_group">
+                        <div class="input_group">
+                            <input type="date" id="checkout" name="checkout"/>
+                            <label for="">Check Out</label>
+                        </div>
+                        <p>Add Date</p>
+                    </div>
+
+                     <div class="form_group">
+                        <div class="input_group">
+                            <input type="text" id="guests" name="checkout"/>
+                            <label for="">Guests</label>
+                        </div>
+                        <p>Add guests</p>
+                    </div>
+                     <button class="btn" id="bookBtn">Book now</button>
+                </form>
+            
+            </div>
+        </div> 
+    </header>
+    <section class="section__container popular_container">
+        <h2 class="section__header">Popular Hotel</h2>
+        <div class="popular_grid">
+            <div class="popular_card">
+                <img src="hotel-1.jpg" alt="">
+                <div class="popular_content">
+                    <div class="popular_card_header">
+                        <h4>The Plaza Hotel</h4>
+                        <h4>$499</h4>
+                    </div>
+                    <p>New York City,USA</p>
+                </div>
+            </div>
+
+            <div class="popular_card">
+                <img src="hotel-2.jpg" alt="">
+                <div class="popular_content">
+                    <div class="popular_card_header">
+                        <h4>Voyage Sorgun</h4>
+                        <h4>$899</h4>
+                    </div>
+                    <p>Paris,France</p>
+                </div>
+            </div>
+    
+            <div class="popular_card">
+                <img src="hotel-3.jpg" alt="">
+                <div class="popular_content">
+                    <div class="popular_card_header">
+                        <h4>Roamlnn</h4>
+                        <h4>$789</h4>
+                    </div>
+                    <p>New York City,USA</p>
+                </div>
+            </div>
+
+            <div class="popular_card">
+                <img src="hotel-4.jpg" alt="">
+                <div class="popular_content">
+                    <div class="popular_card_header">
+                        <h4>GreenGlide Inns</h4>
+                        <h4>$569</h4>
+                    </div>
+                    <p>Norway</p>
+                </div>
+            </div>
+
+            <div class="popular_card">
+                <img src="hotel-5.jpg" alt="">
+                <div class="popular_content">
+                    <div class="popular_card_header">
+                        <h4>Tranquil Trails</h4>
+                        <h4>$569</h4>
+                    </div>
+                    <p>Bangkok</p>
+                </div>
+            </div>
+
+            <div class="popular_card">
+                <img src="hotel-6.jpg" alt="">
+                <div class="popular_content">
+                    <div class="popular_card_header">
+                        <h4>Cityescape Stays</h4>
+                        <h4>$339</h4>
+                    </div>
+                    <p>Germany</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="client">
+        <div class="section_container">
+            <div class="client_container">
+                <h2 class="section__header">What our client says</h2>
+                <div class="client_grid">
+                    <div class="client_card">
+                        <img src="client-1.jpg" alt="client">
+                        <p>⭐⭐⭐⭐⭐
+“Absolutely stunning property. The heritage architecture, luxurious rooms, and courteous
+ staff make it a 10/10 experience.” – Neha P.</p>
+                    </div>
+    
+
+                    <div class="client_card">
+                        <img src="client-2.jpg" alt="client">
+                        <p>“The view was out of this world! Slightly expensive but worth every penny for a relaxing vacation.” – Rohan M.</p>
+                    </div>
+
+                       <div class="client_card">
+                        <img src="client-3.jpg" alt="client">
+                        <p>Room was small and not very clean. Good for one-night budget stays but wouldn't recommend for families.” – Kavita S.</p>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_container">
+        <div class="reward_container">
+            <p>100+ discount codes</p>
+            <h4>Join Rewards and Discover amazing discounts on your booking</h4>
+            <button class="reward_btn">Join Rewards</button>
+        </div>
+    </section>
+    
+    <section class="section__container stats_container">
+  <div class="stat_card">
+    <h2 class="counter" data-target="10000">0</h2>
+    <p>Happy Guests</p>
+  </div>
+  <div class="stat_card">
+    <h2 class="counter" data-target="150">0</h2>
+    <p>Hotels Worldwide</p>
+  </div>
+  <div class="stat_card">
+    <h2 class="counter" data-target="500">0</h2>
+    <p>Meals Served Daily</p>
+  </div>
+</section>
+
+   <footer class="footer">
+  <div class="section_container footer_container">
+    <div class="footer_col">
+      <h3>Hotel name</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </div>
+
+    <div class="footer_col">
+      <h4>Company</h4>
+      <p>About Us</p>
+      <p>Our Team</p>
+      <p>Contact Us</p>
+      <p>Blog</p>
+      <p>Book</p>
+    </div>
+
+    <div class="footer_col">
+      <h4>Legal</h4>
+      <p>FAQs</p>
+      <p>Terms & Conditions</p>
+      <p>Privacy Policy</p>
+    </div>
+
+    <div class="footer_col">
+      <h4>Resources</h4>
+      <p>Social Medias</p>
+      <p>Help Center</p>
+      <p>Partnerships</p>
+    </div>
+  </div>
+
+  <div class="footer_bar">
+    Copyright © 2025 Web Designs by Himani.
+  </div>
+</footer>
+<div id="infoBox" class="info-box hidden">
+  <div class="info-content">
+    <span id="closeInfo" class="close-btn">&times;</span>
+    <h2 id="infoTitle">Title</h2>
+    <p id="infoText">Some description...</p>
+  </div>
+</div>
+
+<!-- Rewards Modal -->
+<div id="rewardsModal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>Join Our Rewards Program</h2>
+    <p>Get exclusive deals, offers, and early access to promotions.</p>
+    <form id="rewardsForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <button type="submit">Join Now</button>
+    </form>
+  </div>
+</div>
+
+
+<script src="hotel.js"></script>
+</body>
+</html>
